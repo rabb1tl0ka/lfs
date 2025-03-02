@@ -17,5 +17,4 @@ fi
 wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/BigBlueTerminal.zip"
 unzip BigBlueTerminal.zip -d "BigBlueTerminal"
 rm BigBlueTerminal.zip
-cd BigBlueTerminal
 cp BigBlueTerminal/*.ttf "$FONTS_DIR"
